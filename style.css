@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_div{
+    height: 100vh;
+    width: 100vw;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(https://cdn.pixabay.com/photo/2015/11/26/22/28/woman-1064664_1280.jpg);
+    background-size: cover;
+    position: relative;
+}
+.br_div{
+    padding: 20px;
+}
+/* .brand{
+    margin: 30px 10px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: cadetblue;
+    top: 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+} */
+ul{
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px ;
+    border: 1px solid #fff;
+
+}
+ul li a{
+    text-decoration: none;
+    color: azure;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li:hover {
+    background-color: #fff;
+    color: black;
+    transition: all 0.5s;
+}
+ul li:hover a{
+    color: black;
+}
+.center_div{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.center_div button{
+    font: 20px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px ;
+    background-color:#000;
+    width: 140px;
+}
+.center_div button:hover{
+    background-color: #fff;
+    color: black;
+    transition: all 0.5s;
+}
